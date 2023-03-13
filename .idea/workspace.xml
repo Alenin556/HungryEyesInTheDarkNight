@@ -50,11 +50,11 @@
 }]]></component>
   <component name="RunManager" selected="Application.HungryEyesInTheDarkNight">
     <configuration name="CreateTheName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Actions.CreateTheName" />
+      <option name="MAIN_CLASS_NAME" value="Data.CreateTheName" />
       <module name="HungryEyesInTheDarkNight.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Actions.*" />
+          <option name="PATTERN" value="Data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

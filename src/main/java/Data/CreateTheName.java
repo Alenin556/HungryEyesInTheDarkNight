@@ -1,4 +1,4 @@
-package Actions;
+package Data;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
-import Actions.CreateTheName;
-import Actions.MonstersAndArtifacts;
+import Data.CreateTheName;
+import Data.MonstersAndArtifacts;
 
 import java.util.Scanner;
 
