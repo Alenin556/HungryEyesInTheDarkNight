@@ -1,5 +1,4 @@
-import Data.CreateTheName;
-import Data.MonstersAndArtifacts;
+import Data.*;
 
 import java.util.Scanner;
 
@@ -36,8 +35,21 @@ public class HungryEyesInTheDarkNight {
         MonstersAndArtifacts monsters = new MonstersAndArtifacts();
         monsters.guessTheMonsters();
         System.out.println(" ");
-        System.out.println("Выбрав из артефактов то что вам пригодится на охоте вы подходите к стене на которой висит ваше оружие и оружие ваших предков-охотников.");
+        System.out.println("Каждый артефакт может пригодится вам в бою.");
         System.out.println(" ");
+        System.out.println("Выбрав из артефактов то что вам пригодится на охоте вы подходите к стене на которой висит ваше оружие и оружие ваших предков-охотников.");
+        HunterWeapon weapon = new HunterWeapon();
+        weapon.chooseWeapon();
+        System.out.println(" ");
+        System.out.println("После того как вы определились с оружием последние что необходимо сделать перед отправкой на охоту, это выбрать какую одежду вы оденете этой ночью.");
+        Clothes clothes =new Clothes();
+        clothes.chooseClothes();
+        System.out.println("Завершив все необходимые приготовления вы выходите из дома.");
+        System.out.println("Выйдя на улицу вы замечаете что погода ухудшается и уже близиться ночь. Дует ветер, люди начинают расходится по домам, в чьих то окнах уже начинают загораться свечи.");
+        System.out.println("" );
+        System.out.println("Вам нужно добраться до темного леса, чаще всего именно от туда ночью слышится вой, лес находится в нескольких километрах от деревни.");
+        HowToGo howToGo = new HowToGo();
+        howToGo.chooseHowToGo();
 
 
     }

@@ -72,21 +72,21 @@ public class MonstersAndArtifacts {
     }
 
     public static void guessTheMonsters() {
-        int[] monstersMass = {0, 1, 2, 3, 4, 5, 6, 7};
         Scanner sc = new Scanner(System.in);
         System.out.println(" ");
         System.out.println("По историям что вы узнали вам необходимо определить на кого будет вестись охота этой ночью и с кем вы возможно столкнетесь.");
-        System.out.println("Вы можете выбрать от 1 до 3 существ.");
         System.out.println("После выбора у вас появится уникальное оружие против выбранного существа.");
         int tries = 3;
+        int triesInfo = 4;
         for (int x = 0; x < tries; x++) {
+            triesInfo --;
+            System.out.println("Вы можете выбрать : " + " " + triesInfo + " артефакта.");
             System.out.println("1 - Вампир.");
             System.out.println("2 - Призрак.");
             System.out.println("3 - Дьявол.");
             System.out.println("4 - Леший.");
             System.out.println("5 - Оборотень.");
             System.out.println("6 - Заблудшие души.");
-            System.out.println("7 - Завершить выбор оружия.");
             int monsters = sc.nextInt();
             switch (monsters) {
                 case 1:
