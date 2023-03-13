@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class HungryEyesInTheDarkNight {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println(" ");
         System.out.println("Добро пожаловать в новое приключение :");
         System.out.println(" ");
         System.out.println("************* Голодные глаза в темной ночи *************");
