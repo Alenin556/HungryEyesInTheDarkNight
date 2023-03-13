@@ -1,5 +1,5 @@
 import Actions.CreateTheName;
-import Actions.Monsters;
+import Actions.MonstersAndArtifacts;
 
 import java.util.Scanner;
 
@@ -33,8 +33,11 @@ public class HungryEyesInTheDarkNight {
         System.out.println(" ");
         System.out.println("Узнав достаточно обо всем что творится в деревне, вы собираетесь положить этому всему конец");
         System.out.println(" ");
-        Monsters monsters = new Monsters();
+        MonstersAndArtifacts monsters = new MonstersAndArtifacts();
         monsters.guessTheMonsters();
+        System.out.println(" ");
+        System.out.println("Выбрав из артефактов то что вам пригодится на охоте вы подходите к стене на которой висит ваше оружие и оружие ваших предков-охотников.");
+        System.out.println(" ");
 
 
     }
