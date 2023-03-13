@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="181888a8-df1b-4331-9147-5a67158631f9" name="Changes" comment="new simulator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/MonstersAndArtifacts.java" afterDir="false" />
+    <list default="true" id="181888a8-df1b-4331-9147-5a67158631f9" name="Changes" comment="1.2 artifacts add">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/HowToGo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/Monsters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/HunterWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/HunterWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/MonstersAndArtifacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/MonstersAndArtifacts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HungryEyesInTheDarkNight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HungryEyesInTheDarkNight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678698899810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.2 artifacts add">
+      <created>1678701533414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678701533414</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.2 artifacts add">
+      <created>1678701627144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678701627144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,14 +124,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new simulator" />
-    <option name="LAST_COMMIT_MESSAGE" value="new simulator" />
+    <MESSAGE value="1.2 artifacts add" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2 artifacts add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/HungryEyesInTheDarkNight.java</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
