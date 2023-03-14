@@ -15,7 +15,7 @@ public class Health {
         if ((clothes.getHealth() >= 2) && (clothes.getHealth() <= 4)) {
             System.out.println("У вас :" + " " + clothes.getHealth() + " жизни.");
         }
-        if ((clothes.getHealth() <= 10) || (clothes.getHealth() >= 5)) {
+        if ((clothes.getHealth() <= 10) && (clothes.getHealth() >= 5)) {
             System.out.println("У вас :" + " " + clothes.getHealth() + " жизней.");
         }
 

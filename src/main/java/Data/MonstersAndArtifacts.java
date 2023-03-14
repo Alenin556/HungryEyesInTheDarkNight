@@ -74,8 +74,8 @@ public class MonstersAndArtifacts {
     public static void guessTheMonsters() {
         Scanner sc = new Scanner(System.in);
         System.out.println(" ");
-        System.out.println("По историям что вы узнали вам необходимо определить на кого будет вестись охота этой ночью и с кем вы возможно столкнетесь.");
-        System.out.println("После выбора у вас появится уникальное оружие против выбранного существа.");
+        System.out.println("По историям что вы узнали, вам необходимо определить, на кого будет вестись охота этой ночью, и с кем вы возможно столкнетесь.");
+        System.out.println("После выбора, у вас появится уникальное оружие против выбранного существа.");
         int tries = 3;
         int triesInfo = 4;
         for (int x = 0; x < tries; x++) {
