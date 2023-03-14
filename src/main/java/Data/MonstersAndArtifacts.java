@@ -6,7 +6,7 @@ public class MonstersAndArtifacts {
     String monsterName;
 
     static int weaponForVampire;
-    static int weaponForGhost;
+    static int weaponForWitch;
     static int weaponForDevil;
     static int weaponForLeshy;
     static int weaponForWerewolf;
@@ -21,12 +21,12 @@ public class MonstersAndArtifacts {
         weaponForVampire = newWeaponForVampire;
     }
 
-    public static int getWeaponForGhost() {
-        return weaponForGhost;
+    public static int getWeaponForWitch() {
+        return weaponForWitch;
     }
 
-    public static void setWeaponForGhost(int newWeaponForGhost) {
-         weaponForVampire = newWeaponForGhost ;
+    public static void setWeaponForWhitch(int newWeaponForWhitch) {
+         weaponForWitch = newWeaponForWhitch ;
     }
 
     public static int getWeaponForDevil() {
@@ -95,7 +95,7 @@ public class MonstersAndArtifacts {
 
                     break;
                 case 2:
-                    setWeaponForGhost(1);
+                    setWeaponForWhitch(1);
                     System.out.println("Теперь у вас есть специальное оружие против Ведьмы: амулет древних Отшельников.");
                     break;
                 case 3:
@@ -119,7 +119,7 @@ public class MonstersAndArtifacts {
         System.out.println(" ");
         System.out.println("В вашем сумке есть :");
         System.out.println("Оружие против Вампира:"+ " " + getWeaponForVampire());
-        System.out.println("Оружие против Ведьмы:"+ " " + getWeaponForGhost());
+        System.out.println("Оружие против Ведьмы:"+ " " + getWeaponForWitch());
         System.out.println("Оружие против Дьявола:"+ " " + getWeaponForDevil());
         System.out.println("Оружие против Лешего:"+ " " + getWeaponForLeshy());
         System.out.println("Оружие против Оборотня:"+ " " + getWeaponForWerewolf());

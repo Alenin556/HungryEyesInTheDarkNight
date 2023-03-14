@@ -44,7 +44,7 @@ public class MeetingWithVampire {
             System.out.println(" ");
             System.out.println("В вашем сумке есть :");
             System.out.println("Оружие против Вампира:"+ " " + getWeaponForVampire());
-            System.out.println("Оружие против Ведьмы:"+ " " + getWeaponForGhost());
+            System.out.println("Оружие против Ведьмы:"+ " " + getWeaponForWitch());
             System.out.println("Оружие против Дьявола:"+ " " + getWeaponForDevil());
             System.out.println("Оружие против Лешего:"+ " " + getWeaponForLeshy());
             System.out.println("Оружие против Оборотня:"+ " " + getWeaponForWerewolf());
@@ -99,6 +99,7 @@ public class MeetingWithVampire {
                     System.out.println(" ");
                     System.out.println("После того как вы успешно расправились с вампиром, вы продолжаете свой путь.");
                 }
+                // если 0 то ... можно выбрать бой или бежать.
                 break;
             case 3:
                 System.out.println("Приняв решение бежать, вы сталкиваете со своего пути вампира и он валиться на землю, одновременно от чего то смеясь.");
