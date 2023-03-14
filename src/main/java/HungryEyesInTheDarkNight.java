@@ -1,4 +1,5 @@
 import Actions.FightOnRoad;
+import Actions.MeetingWithVampire;
 import Data.*;
 
 import java.util.Scanner;
@@ -67,7 +68,10 @@ public class HungryEyesInTheDarkNight {
         System.out.println("");
         FightOnRoad fightOnRoad = new FightOnRoad();
         fightOnRoad.fightOnRoad();
+        MeetingWithVampire meetingWithVampire = new MeetingWithVampire();
+        meetingWithVampire.meetingWithVampire();
         System.out.println("Продолжение следует...");
+
 
 
 
