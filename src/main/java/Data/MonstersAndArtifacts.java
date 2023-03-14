@@ -82,7 +82,7 @@ public class MonstersAndArtifacts {
             triesInfo --;
             System.out.println("Вы можете выбрать : " + " " + triesInfo + " артефакта.");
             System.out.println("1 - Вампир.");
-            System.out.println("2 - Призрак.");
+            System.out.println("2 - Ведьма.");
             System.out.println("3 - Дьявол.");
             System.out.println("4 - Леший.");
             System.out.println("5 - Оборотень.");
@@ -96,7 +96,7 @@ public class MonstersAndArtifacts {
                     break;
                 case 2:
                     setWeaponForGhost(1);
-                    System.out.println("Теперь у вас есть специальное оружие против Призрака: амулет древних Отшельников.");
+                    System.out.println("Теперь у вас есть специальное оружие против Ведьмы: амулет древних Отшельников.");
                     break;
                 case 3:
                     setWeaponForDevil(1);
@@ -119,7 +119,7 @@ public class MonstersAndArtifacts {
         System.out.println(" ");
         System.out.println("В вашем сумке есть :");
         System.out.println("Оружие против Вампира:"+ " " + getWeaponForVampire());
-        System.out.println("Оружие против Призрака:"+ " " + getWeaponForGhost());
+        System.out.println("Оружие против Ведьмы:"+ " " + getWeaponForGhost());
         System.out.println("Оружие против Дьявола:"+ " " + getWeaponForDevil());
         System.out.println("Оружие против Лешего:"+ " " + getWeaponForLeshy());
         System.out.println("Оружие против Оборотня:"+ " " + getWeaponForWerewolf());

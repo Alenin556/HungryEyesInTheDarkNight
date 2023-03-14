@@ -51,22 +51,27 @@ public class HunterWeapon {
             switch (monsters) {
                 case 1:
                     setFatherWeapon(1);
+                    System.out.println("Вы взяли стальной меч отца.");
                     break;
                 case 2:
                     setGrandFatherWeapon(1);
+                    System.out.println("Вы взяли копье с золотым наконечником прадеда.");
                     break;
                 case 3:
                     setYourWeapon(1);
+                    System.out.println("Вы взяли свой меч.");
                     break;
             }
         }
-        if (getFatherWeapon() == 1) {
+       /* if (getFatherWeapon() == 1) {
             System.out.println("Вы взяли стальной меч отца.");
         } if (getGrandFatherWeapon() == 1) {
             System.out.println("Вы взяли копье с золотым наконечником прадеда.");
         } if (getYourWeapon() == 1) {
             System.out.println("Вы взяли свой меч.");
         }
+
+        */
 
 
     }

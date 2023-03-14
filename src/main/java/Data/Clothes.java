@@ -19,9 +19,18 @@ public class Clothes {
     public static void setMiddleClothes(int newMiddleClothes) {
         middleClothes =newMiddleClothes;
     }
+    public static int getHealth() {
+        return health;
+    }
+
+    public static void setHealth(int newHealth) {
+        health = newHealth;
+    }
 
     static int lightClothes;
     static int middleClothes;
+
+    static int health ;
 
 
     public static void chooseClothes() {
@@ -38,21 +47,31 @@ public class Clothes {
             switch (monsters) {
                 case 1:
                     setLightClothes(1);
+                    setHealth(10);
                     System.out.println("Вы одели легкий костюм с капюшоном.");
+                    System.out.println("У вас :" + " " + getHealth() + " жизней.");
+                    System.out.println("Удачи. Она вам пригодиться.");
                     break;
                 case 2:
                     setMiddleClothes(1);
+                    setHealth(15);
                     System.out.println("Вы одели средний кожаный костюм.");
+                    System.out.println("У вас :" + " " + getHealth() + " жизней.");
+                    System.out.println("Удачи. Она вам пригодиться.");
                     break;
             }
         }
 
-        if (getLightClothes() == 1) {
+      /*  if (getLightClothes() == 1) {
             System.out.println("Вы одели легкий костюм с капюшоном.");
         } else if (getMiddleClothes() == 1) {
             System.out.println("Вы одели средний кожаный костюм.");
         }
 
+       */
+
         }
+
+
 }
 
