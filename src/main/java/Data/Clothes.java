@@ -59,6 +59,12 @@ public class Clothes {
                     System.out.println("У вас :" + " " + getHealth() + " жизней.");
                     System.out.println("Удачи. Она вам пригодиться.");
                     break;
+                default:
+                    setLightClothes(1);
+                    setHealth(10);
+                    System.out.println("Вы одели легкий костюм с капюшоном.");
+                    System.out.println("У вас :" + " " + getHealth() + " жизней.");
+                    System.out.println("Удачи. Она вам пригодиться.");
             }
         }
 

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="181888a8-df1b-4331-9147-5a67158631f9" name="Changes" comment="2.21">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/MeetingWithLeshii.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/MeetingWithVampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/MeetingWithVampire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Clothes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/HunterWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/HunterWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HungryEyesInTheDarkNight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HungryEyesInTheDarkNight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Data/HunterWeapon.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -160,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678805350567</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2.21">
+      <created>1678973472136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678973472137</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

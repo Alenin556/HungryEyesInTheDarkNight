@@ -49,7 +49,8 @@ public class MeetingWithVampire {
             System.out.println("Оружие против Лешего:"+ " " + getWeaponForLeshy());
             System.out.println("Оружие против Оборотня:"+ " " + getWeaponForWerewolf());
             System.out.println("Оружие против Заблудших душ:"+ " " + getWeaponForLostSouls());
-        }int fightChoice1 = sc.nextInt();
+        }
+        int fightChoice1 = sc.nextInt();
         switch (fightChoice1) {
             case 1:
                 if (HunterWeapon.getFatherWeapon() == 1) {

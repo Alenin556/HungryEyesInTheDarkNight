@@ -1,4 +1,5 @@
 import Actions.FightOnRoad;
+import Actions.MeetingWithLeshii;
 import Actions.MeetingWithVampire;
 import Data.*;
 
@@ -60,7 +61,7 @@ public class HungryEyesInTheDarkNight {
         System.out.println(" ");
         System.out.println("Завершив все необходимые приготовления и помолившись перед иконой, вы выходите из дома.");
         System.out.println(" ");
-        System.out.println("Выйдя на улицу вы замечаете что погода ухудшается и уже близится ночь. Дует ветер, люди начинают расходится по домам, в чьих то окнах уже начинают загораться первые свечи.");
+        System.out.println("Выйдя на улицу, вы замечаете что погода ухудшается и уже близится ночь. Дует ветер, люди начинают расходится по домам, в чьих то окнах уже начинают загораться первые свечи.");
         System.out.println("" );
         System.out.println("Вам нужно добраться до темного леса, чаще всего именно от туда ночью слышится вой. Лес находится в нескольких километрах от деревни.");
         HowToGo howToGo = new HowToGo();
@@ -70,7 +71,8 @@ public class HungryEyesInTheDarkNight {
         fightOnRoad.fightOnRoad();
         MeetingWithVampire meetingWithVampire = new MeetingWithVampire();
         meetingWithVampire.meetingWithVampire();
-        System.out.println("Продолжение следует...");
+        MeetingWithLeshii meetingWithLeshii = new MeetingWithLeshii();
+        meetingWithLeshii.meetingWithLeshii();
 
 
 

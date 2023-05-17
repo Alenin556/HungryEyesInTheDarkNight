@@ -61,6 +61,10 @@ public class HunterWeapon {
                     setYourWeapon(1);
                     System.out.println("Вы взяли свой меч.");
                     break;
+                default:
+                    setYourWeapon(1);
+                    System.out.println("Вы взяли свой меч.");
+                    break;
             }
         }
        /* if (getFatherWeapon() == 1) {
